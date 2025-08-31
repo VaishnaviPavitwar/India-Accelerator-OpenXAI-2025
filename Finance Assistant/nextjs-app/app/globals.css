@@ -1,0 +1,13 @@
+/* globals.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* --- START CHANGES --- */
+body {
+  /* A nice, deep blue to a lighter blue gradient */
+  background: linear-gradient(to bottom right, #0F172A, #3B82F6);
+  color: white; /* Set default text color to white for contrast */
+}
+/* --- END CHANGES --- */
